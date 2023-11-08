@@ -13,7 +13,7 @@ public static class Config
     public static IEnumerable<ApiScope> ApiScopes =>
         new List<ApiScope>
             { 
-                new ApiScope("Korez73.IsServ.ProtectAPI.API", "Korez73.IsServ.ProtectAPI.API")
+                new ApiScope("Korez73.IdServ.ProtectAPI.API", "Korez73.IdServ.ProtectAPI.API")
             };
 
     public static IEnumerable<Client> Clients =>
