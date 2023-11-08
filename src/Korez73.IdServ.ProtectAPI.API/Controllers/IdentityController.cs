@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 
-[Microsoft.AspNetCore.Components.Route("identity")]
+[Microsoft.AspNetCore.Mvc.Route("identity")]
 [Authorize]
 public class IdentityController : ControllerBase
 {
