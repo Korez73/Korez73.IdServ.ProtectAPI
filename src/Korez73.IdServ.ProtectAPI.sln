@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korez73.IdServ.ProtectAPI.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korez73.IdServ.ProtectAPI.API", "Korez73.IdServ.ProtectAPI.API\Korez73.IdServ.ProtectAPI.API.csproj", "{01B47A07-E4C4-4946-804F-ADDD3DA787E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korez73.IdServ.ProtectAPI.Client", "Korez73.IdServ.ProtectAPI.Client\Korez73.IdServ.ProtectAPI.Client.csproj", "{1A307F68-0F0E-402A-9A46-D2D463734ACA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{01B47A07-E4C4-4946-804F-ADDD3DA787E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B47A07-E4C4-4946-804F-ADDD3DA787E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B47A07-E4C4-4946-804F-ADDD3DA787E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A307F68-0F0E-402A-9A46-D2D463734ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A307F68-0F0E-402A-9A46-D2D463734ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A307F68-0F0E-402A-9A46-D2D463734ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A307F68-0F0E-402A-9A46-D2D463734ACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
