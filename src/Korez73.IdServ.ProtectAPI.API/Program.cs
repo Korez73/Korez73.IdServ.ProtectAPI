@@ -19,6 +19,15 @@ builder.Services.AddAuthentication("Bearer")
         };
     });
 
+builder.Services.AddAuthorization(options => 
+{
+    options.AddPolicy("ApiScope", policy => 
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireClaim("scope", "Korez73.IdServ.ProtectAPI.API");
+    });
+});
+
 var app = builder.Build();
 
 
@@ -35,6 +44,6 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers();
+app.MapControllers().RequireAuthorization("ApiScope");
 
 app.Run();
